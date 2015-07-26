@@ -2,7 +2,7 @@ Package.describe({
   name: 'clinical:hipaa-routes',
   version: '0.1.0',
   // Brief, one-line summary of the package.
-  summary: '',
+  summary: 'Helper package with routes for Hipaa Policy templates.',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/awatson1978/clinical-hipaa-routes',
   // By default, Meteor will default to using README.md for documentation.
