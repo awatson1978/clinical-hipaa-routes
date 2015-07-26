@@ -11,6 +11,12 @@ This package isn't really intended to be installed on it's own; but if you're fo
 ``meteor add clinical:hipaa-routes``
 
 ==================================
+#### Dependencies  
+
+This package depends on the [clinical:hipaa-policies](https://atmospherejs.com/clinical/hipaa-policies) package, and doesn't do much without it.
+
+
+==================================
 #### Provided Routes
 
 ````
@@ -36,9 +42,7 @@ This package isn't really intended to be installed on it's own; but if you're fo
 /hipaa/policies/roles_policy
 /hipaa/policies/systems_access_policy
 /hipaa/policies/vulnerability_scanning_policy
-
 ````
-
 
 ==================================
 #### Licensing  
