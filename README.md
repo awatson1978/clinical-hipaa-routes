@@ -8,7 +8,9 @@ Helper package with routes for Hipaa Policy templates.
 
 This package isn't really intended to be installed on it's own; but if you're forking and customizing the ``clinical:hipaa-policies`` package, you may want to install these packages individually.  In which case, run the following:
 
-``meteor add clinical:hipaa-routes``
+````bash
+meteor add clinical:hipaa-routes
+````
 
 ==================================
 #### Dependencies  
