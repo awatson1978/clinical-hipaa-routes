@@ -1,4 +1,4 @@
-## clinical:hipaa  
+## clinical:hipaa-routes
 
 Helper package with routes for Hipaa Policy templates.
 
