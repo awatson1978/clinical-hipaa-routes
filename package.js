@@ -15,7 +15,7 @@ Package.onUse(function(api) {
   api.addFiles('hipaa-routes.js', 'client');
 
   api.use('meteor-platform');
-  api.use('iron:router');
+  api.use('iron:router@1.0.7');
   api.use('less');
   api.use('clinical:hipaa-policies@0.0.2');
 
