@@ -49,4 +49,4 @@ This package depends on the [clinical:hipaa-policies](https://atmospherejs.com/c
 ==================================
 #### Licensing  
 
-MIT.  Use as you will.  Disrupt the system.  It needs all the help it can get.
+![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
