@@ -1,12 +1,8 @@
 Package.describe({
   name: 'clinical:hipaa-routes',
-  version: '0.1.0',
-  // Brief, one-line summary of the package.
+  version: '0.1.1',
   summary: 'Helper package with routes for Hipaa Policy templates.',
-  // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/awatson1978/clinical-hipaa-routes',
-  // By default, Meteor will default to using README.md for documentation.
-  // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
 });
 
@@ -15,9 +11,9 @@ Package.onUse(function(api) {
   api.addFiles('hipaa-routes.js', 'client');
 
   api.use('meteor-platform');
-  api.use('iron:router@1.0.7');
+  api.use('clinical:router@2.0.17');
   api.use('less');
-  api.use('clinical:hipaa-policies@0.0.2');
+  api.use('clinical:hipaa-policies@0.1.1');
 
   api.imply('clinical:hipaa-policies');
 
