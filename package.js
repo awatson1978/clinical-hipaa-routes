@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:hipaa-routes',
-  version: '0.1.1',
+  version: '0.1.2',
   summary: 'Helper package with routes for Hipaa Policy templates.',
   git: 'https://github.com/awatson1978/clinical-hipaa-routes',
   documentation: 'README.md'
@@ -13,7 +13,7 @@ Package.onUse(function(api) {
   api.use('meteor-platform');
   api.use('clinical:router@2.0.17');
   api.use('less');
-  api.use('clinical:hipaa-policies@0.1.1');
+  api.use('clinical:hipaa-policies@0.1.2');
 
   api.imply('clinical:hipaa-policies');
 
